@@ -2,20 +2,44 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
     <url>
         <loc>https://dowse.empyrealsdk.com/SUMMARY/</loc>
-        <lastmod>2025-02-18</lastmod>
+        <lastmod>2025-02-21</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://dowse.empyrealsdk.com/SUMMARY/"/>
     </url>
     <url>
         <loc>https://dowse.empyrealsdk.com/</loc>
-        <lastmod>2025-02-18</lastmod>
+        <lastmod>2025-02-21</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://dowse.empyrealsdk.com/"/>
     </url>
     <url>
         <loc>https://dowse.empyrealsdk.com/getting-started/</loc>
-        <lastmod>2025-02-18</lastmod>
+        <lastmod>2025-02-21</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://dowse.empyrealsdk.com/getting-started/"/>
+    </url>
+    <url>
+        <loc>https://dowse.empyrealsdk.com/getting-started/agent-executor/</loc>
+        <lastmod>2025-02-21</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://dowse.empyrealsdk.com/getting-started/agent-executor/"/>
+    </url>
+    <url>
+        <loc>https://dowse.empyrealsdk.com/getting-started/examples/</loc>
+        <lastmod>2025-02-21</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://dowse.empyrealsdk.com/getting-started/examples/"/>
+    </url>
+    <url>
+        <loc>https://dowse.empyrealsdk.com/getting-started/executor/</loc>
+        <lastmod>2025-02-21</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://dowse.empyrealsdk.com/getting-started/executor/"/>
+    </url>
+    <url>
+        <loc>https://dowse.empyrealsdk.com/getting-started/prompt/</loc>
+        <lastmod>2025-02-21</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://dowse.empyrealsdk.com/getting-started/prompt/"/>
     </url>
 </urlset>
