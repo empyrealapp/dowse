@@ -1,66 +1,28 @@
-## Foundry
+## Onchain Utilities
 
-**Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
+This repository contains utilities for working with the onchain aspects of the dowse agent management.
 
-Foundry consists of:
+The agent manages a registry of supported chains, with the deployment address of their deposit contracts.
+These funds get accumulated on each Depositor contract, and tracked in the deposit contract on Sapphire.
 
--   **Forge**: Ethereum testing framework (like Truffle, Hardhat and DappTools).
--   **Cast**: Swiss army knife for interacting with EVM smart contracts, sending transactions and getting chain data.
--   **Anvil**: Local Ethereum node, akin to Ganache, Hardhat Network.
--   **Chisel**: Fast, utilitarian, and verbose solidity REPL.
+A user has a deposit address for each chain that represents their account.
 
-## Documentation
+For example, they can setup an account with the agent, using their twitter.  It will then generate a deposit address for each chain:
 
-https://book.getfoundry.sh/
+- ethereum
+- solana
+- move
 
-## Usage
+The user can then deposit to any of the deposit contracts, which will be credited to the user's account on sapphire.
 
-### Build
+### Setup
 
-```shell
-$ forge build
-```
+This is a hybrid setup that uses both Foundry and Hardhat.
 
-### Test
+The `src` directory contains the smart contracts for the dowse agent management.
+The `ignition` directory contains the Hardhat project for deploying the smart contracts.
+The `hardhat.config.ts` file contains the configuration for the Hardhat project.
+The `foundry.toml` file contains the configuration for the Foundry project.
+The `package.json` file contains the dependencies for the project.
 
-```shell
-$ forge test
-```
-
-### Format
-
-```shell
-$ forge fmt
-```
-
-### Gas Snapshots
-
-```shell
-$ forge snapshot
-```
-
-### Anvil
-
-```shell
-$ anvil
-```
-
-### Deploy
-
-```shell
-$ forge script script/Counter.s.sol:CounterScript --rpc-url <your_rpc_url> --private-key <your_private_key>
-```
-
-### Cast
-
-```shell
-$ cast <subcommand>
-```
-
-### Help
-
-```shell
-$ forge --help
-$ anvil --help
-$ cast --help
-```
+This is because foundry is better for testing most contracts, but hardhat is necessary for sapphire deployments.
