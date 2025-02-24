@@ -49,7 +49,7 @@ Dowse is a Python library that enables you to build intelligent agents capable o
 dowse is built utilizing the following libraries:
 
 * <a href="https://docs.pydantic.dev/" class="external-link" target="_blank">Pydantic</a> for the data parts.
-* <a href="https://github.com/empyrealapp/eth-rpc" class="external-link" target="_blank">eth-rpc</a> for the blockchain parts.
+* <a href="https://github.com/empyrealapp/eth-packages" class="external-link" target="_blank">eth-rpc</a> for the blockchain parts.
 * <a href="https://github.com/empyrealapp/emp-agents" class="external-link" target="_blank">emp-agents</a> for the agent parts.
 
 
